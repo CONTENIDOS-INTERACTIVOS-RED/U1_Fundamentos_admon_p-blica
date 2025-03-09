@@ -1,363 +1,287 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'1. Gobernanza y gestión de redes'")
+    BannerInterno(:subTitulo="'1. CONCEPTOS BÁSICOS DE ADMINISTRACIÓN PÚBLICA'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-        .row.bg-gris.bg-full-width.py-4.mb-0
-          div.px-5.pb-md-3.row
-            .col-12.col-xl-8.d-flex.justify-content-center.align-items-center
-              span Este enfoque implica procesos de decisión más inclusivos y participativos, en los que no solo intervienen entidades gubernamentales, sino también organizaciones civiles, actores privados y organismos internacionales. Como resultado, se han desarrollado modelos que fomentan la descentralización, la articulación de redes interinstitucionales y el fortalecimiento del control ciudadano sobre la administración estatal (Aguilar, 2014).
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
-        .row.bg-gris-claro.bg-full-width.p-4.mb-4
-          p Este enfoque implica procesos de decisión más inclusivos y participativos, en los que no solo intervienen entidades gubernamentales, sino también organizaciones civiles, actores privados y organismos internacionales. Como resultado, se han desarrollado modelos que fomentan la descentralización, la articulación de redes interinstitucionales y el fortalecimiento del control ciudadano sobre la administración estatal (Aguilar, 2014).
-    
-        h2 Diferencias entre gobernanza y gobernabilidad
-    
-        p.mb-4 La siguiente tabla presenta las principales diferencias entre ambos conceptos:
-    
-        p <strong>Tabla 1.</strong> Comparación entre gobernanza y gobernabilidad
-    
-        .row.mb-4
-          .col-12.col-md-10.mx-auto
-            .tabla-a
-              table
-                thead
-                  tr
-                    th(width="25%").text-bold Aspecto
-                    th.text-bold Gobernabilidad
-                    th.text-bold Gobernanza
-                tbody
-                  tr
-                    td.text-bold Enfoque principal
-                    td Capacidad del gobierno para ejercer autoridad y mantener el orden.
-                    td Participación de múltiples actores en la toma de decisiones.
-                  tr
-                    td.text-bold Modelo de gestión
-                    td Jerárquico y vertical.
-                    td Colaborativo y descentralizado.
-                  tr
-                    td.text-bold Actores involucrados
-                    td Gobierno central y entidades estatales.
-                    td Gobierno, sociedad civil, sector privado y organismos internacionales.
-                  tr
-                    td.text-bold Objetivo principal
-                    td Garantizar la estabilidad política y social.
-                    td Promover la transparencia, eficiencia y participación en la gestión pública.
-            .bg-rojo-claro.p-4
-              span Desde esta perspectiva, la gobernanza no reemplaza la gobernabilidad, sino que la complementa a través de redes de cooperación y estrategias que fortalecen la capacidad del Estado para abordar problemáticas complejas de manera sostenible (Aguilar, 2014).
-    
-        #t_1_1.titulo-segundo(data-aos="flip-up")
-          div.d-flex
-            span.me-3 1.1
-            h2 Enfoques teóricos sobre la gobernanza en la administración pública
-    
-        p.mb-4 Diferentes enfoques han permitido aplicar la gobernanza en distintos contextos administrativos:
-        .row.mb-4
-          .col-12.col-xl-8
-            LineaTiempoD.color-secundario
-              p(numero='1' titulo='Gobernanza jerárquica') Modelo tradicional en el que el Estado mantiene la autoridad central en la toma de decisiones, con estructuras burocráticas verticales que garantizan estabilidad institucional.
-              p(numero='2' titulo='Gobernanza en red') Propone la cooperación entre entidades gubernamentales y actores externos, facilitando la gestión de recursos y optimizando la prestación de servicios públicos. 
-              p(numero='3' titulo='Gobernanza participativa') Se basa en la inclusión directa de la ciudadanía mediante audiencias públicas, consultas populares y presupuestos participativos, fortaleciendo la transparencia institucional.
-              p(numero='4' titulo='Gobernanza multinivel') Destaca la coordinación entre niveles de gobierno (nacional, regional y local) para descentralizar la gestión pública y optimizar su impacto en la población.
-          .col-4.d-none.d-xl-block
-            img(src='@/assets/curso/unidad/img-4.png', alt='Texto que describa la imagen')
-    
-        .row.bg-verde-oscuro.bg-full-width.py-4.mb-4
-          div.px-5.pb-md-3
-            .col-1.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-5.svg', alt='Texto que describa la imagen')
-            .col-12.col-xl-11
-              span.text-white La combinación de estos enfoques ha permitido una administración pública más flexible y adaptable, promoviendo la cooperación estatal y privada en la formulación de estrategias para el desarrollo sostenible. 
-        #t_1_2.titulo-segundo(data-aos="flip-up")
-          div.d-flex
-            span.me-3 1.2
-            h2 Relación entre gobernanza y gestión eficiente de recursos estatales
+      .row.mb-4.mx-0
+        .col-12.col-xl-8.d-flex.align-items-center.bg-azul.p-4(data-aos="fade-right")
+          p.mb-0(data-aos="fade-up") La administración pública es una disciplina esencial para el desarrollo de los Estados modernos, especialmente en contextos como el colombiano, donde la gestión de recursos, políticas y acciones articuladas resulta clave para satisfacer las necesidades colectivas. Este campo no solo cumple una función operativa, sino que también representa el vínculo entre las demandas de la ciudadanía y la capacidad del Estado para responder de manera equitativa.
+        .d-none.d-xl-block.col-4.px-0(data-aos="fade-left")
+          img.h-100(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
 
-        p.mb-4 Uno de los principales beneficios de la gobernanza es la optimización en la gestión de recursos estatales. La descentralización y la participación de múltiples actores permiten un uso más estratégico de los fondos públicos, minimizando duplicidades y promoviendo la rendición de cuentas (Lasagna, 2013).
-        
-        .row.bg-fondo-1.bg-full-width.py-4.mb-4
-          div.px-5.pb-md-3
-            .row.mb-4
-              .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-left")
-                div.custom-image-card.rounded-8px
-                  img.mb-4(src='@/assets/curso/unidad/img-6.png', alt='Texto que describa la imagen')
-                  div.mb-4
-                    p.text-bold.text-center Coordinación interinstitucional
-                    p.text-small.px-4.text-center.pb-2 Facilita la planificación estratégica y ejecución eficiente de programas gubernamentales.
-              .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-up")
-                div.custom-image-card.rounded-8px
-                  img.mb-4(src='@/assets/curso/unidad/img-7.png', alt='Texto que describa la imagen')
-                  div.mb-4
-                    p.text-bold.text-center Transparencia y control social
-                    p.text-small.px-4.text-center.pb-2 Permite la supervisión ciudadana y reduce los riesgos de corrupción.
-              .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-right")
-                div.custom-image-card.rounded-8px
-                  img.mb-4(src='@/assets/curso/unidad/img-8.png', alt='Texto que describa la imagen')
-                  div.mb-4
-                    p.text-bold.text-center Innovación en la gestión pública
-                    p.text-small.px-4.text-center.pb-2 Favorece la adopción de nuevas tecnologías y metodologías administrativas.
+      .row.mb-4
+        .col-5.d-none.d-xl-block
+          img.h-100(src='@/assets/curso/unidad/img-4.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-7
+          p.mb-4(data-aos="fade-up") En Colombia, la administración pública es un pilar para alcanzar objetivos nacionales e impulsar transformaciones sociales. La Constitución Política de 1991 establece principios fundamentales, como la eficiencia y la transparencia, que orientan la gestión gubernamental y fortalecen la confianza entre el gobierno y la población.
+          .bg-verde-claro.p-4(data-aos="fade-up")
+            span Comprender estos conceptos permite analizar el funcionamiento del Estado de manera integral, incluyendo los mecanismos que garantizan la prestación de servicios esenciales y la implementación de políticas públicas. Además, profundizar en sus principios y funciones facilita la identificación de oportunidades para optimizar procesos administrativos en distintos contextos.
 
-        .row.bg-amarillo-claro.bg-full-width.py-4.mb-4
-          div.px-5.pb-md-3
-            span En Colombia, la gobernanza ha sido clave en políticas de desarrollo sostenible. Modelos como los Contratos Plan han promovido alianzas entre diferentes niveles de gobierno y actores locales, garantizando un desarrollo territorial más equilibrado y eficiente (Aguilar, 2014).
+      #t_1_1.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 1.1
+          h2 Definición de administración pública
 
-        #t_1_3.titulo-segundo(data-aos="flip-up")
-          div.d-flex
-            span.me-3 1.3
-            h2 Modelos de gobernanza en la administración pública
+      .row.mb-4
+        .col-12.col-xl-8
+          p.mb-4(data-aos="fade-up") La administración pública es el conjunto de procesos, estructuras y acciones que desarrolla el Estado para cumplir funciones esenciales como garantizar el bienestar colectivo, promover el desarrollo y salvaguardar los derechos ciudadanos. Este ámbito no solo gestiona recursos, sino también relaciones y expectativas sociales, lo que lo convierte en un sistema dinámico y multidimensional.
+          span En Colombia, la administración pública es fundamental para responder a las necesidades de una sociedad diversa y en constante transformación. Su naturaleza está orientada al servicio, lo que implica que las entidades estatales deben operar bajo principios como la eficiencia y la transparencia, establecidos en la Constitución Política de 1991. Al gestionar recursos públicos, estas entidades deben priorizar el bien común sobre los intereses particulares.
+        .d-none.d-xl-block.col-4
+          img.h-100(src='@/assets/curso/unidad/img-5.png', alt='Texto que describa la imagen')
 
-        p.mb-4 La gobernanza en la administración pública ha evolucionado de modelos centralizados hacia esquemas más abiertos y participativos. Tradicionalmente, la administración pública se basaba en un modelo jerárquico, fundamentado en la burocracia weberiana, con estructuras verticales que garantizaban control y estabilidad institucional (Aguilar, 2014).
+      #t_1_2.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 1.2
+          h2 Diferencias entre la administración pública y privada
 
-        ImagenInfografica.color-secundario.mb-0.bg-white
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/unidad/img-9.png', alt='Descripción de la imagen')
-          .tarjeta.bg-white.p-4(x='31.4%' y='36%' numero='+')
-            .h5.mb-2 Toma de decisiones centralizada 
-            p Las decisiones son adoptadas por autoridades superiores sin consulta amplia con otros actores.
-          .tarjeta.bg-white.p-4(x='70%' y='36%' numero='+')
-            .h5.mb-2 Normas y procedimientos rígidos
-            p Regulaciones estrictas que limitan la flexibilidad en la gestión pública.
-          .tarjeta.bg-white.p-4(x='31.4%' y='64%' numero='+')
-            .h5.mb-2 Supervisión administrativa estricta
-            p Control vertical y énfasis en la rendición de cuentas interna.
-          .tarjeta.bg-white.p-4(x='70%' y='64%' numero='+')
-            .h5.mb-2 Baja autonomía en organismos subordinados
-            p Dependencia de instancias superiores para la ejecución de acciones.
+      p.mb-4 Aunque ambas disciplinas comparten principios administrativos como la planificación y la organización, sus objetivos y naturaleza son distintos.
+      p.mb-4 <strong>Tabla 1.</strong> Diferencias entre la administración pública y privada
 
-        .bg-verde-claro.p-4.mb-4
-          span Aunque este modelo ha fortalecido la institucionalidad, su rigidez y limitada flexibilidad han llevado al desarrollo de enfoques más colaborativos.
+      .tabla-a
+        table
+          thead
+            tr
+              th(width="25%").text-bold Aspecto
+              th.text-bold Administración Pública
+              th.text-bold Administración Privada
+          tbody
+            tr
+              td.text-bold Propósito
+              td Satisfacer necesidades sociales mediante bienes y servicios públicos.
+              td Maximizar utilidades y beneficios económicos.
+            tr
+              td.text-bold Regulación
+              td Opera bajo un marco legal estricto que garantiza equidad y transparencia.
+              td Se rige por criterios de eficiencia económica y competitividad.
+            tr
+              td.text-bold Gestión del talento humano
+              td La contratación y remuneración están reguladas para asegurar equidad.
+              td La contratación es flexible y depende de estrategias empresariales.
+            tr
+              td.text-bold Uso de recursos
+              td Priorización del interés público en la asignación de recursos.
+              td Búsqueda de rentabilidad y optimización de costos.
 
-        .row.mb-4
-          .col-6.col-lg-3.mx-auto.d-flex.flex-column.mb-4(data-aos="fade-up")
-            .bg-verde.px-4.py-3.mb-0.h-100.d-flex.justify-content-center.align-items-center
-              p.text-bold.mb-0.text-center Participación de diversos sectores
-            .bg-verde-claro.p-4.h-100
-              p.mb-0.text-small.text-center Involucra actores gubernamentales, privados y civiles en la formulación de políticas.
-          .col-6.col-lg-3.mx-auto.d-flex.flex-column.mb-4(data-aos="fade-up")
-            .bg-amarillo-oscuro.px-4.py-3.mb-0.h-100.d-flex.justify-content-center.align-items-center
-              p.text-bold.mb-0.text-center Flexibilidad organizacional
-            .bg-amarillo.p-4.h-100
-              p.mb-0.text-small.text-center Permite la descentralización en la toma de decisiones.
-          .col-6.col-lg-3.mx-auto.d-flex.flex-column.mb-4(data-aos="fade-up")
-            .bg-rojo.px-4.py-3.mb-0.h-100.d-flex.justify-content-center.align-items-center
-              p.text-bold.mb-0.text-center Redes de cooperación interinstitucional	
-            .bg-rojo-claro.p-4.h-100
-              p.mb-0.text-small.text-center Facilitan la gestión de políticas y programas a través de alianzas estratégicas.
-          .col-6.col-lg-3.mx-auto.d-flex.flex-column.mb-4(data-aos="fade-up")
-            .bg-gris-oscuro.px-4.py-3.mb-0.h-100.d-flex.justify-content-center.align-items-center
-              p.text-bold.mb-0.text-center.text-white Mayor transparencia	
-            .bg-gris-claro.p-4.h-100
-              p.mb-0.text-small.text-center Brinda acceso ciudadano a la información gubernamental.
+      .d-flex.align-items-start.bg-amarillo.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-6.svg', alt='Texto descriptivo de la imagen')
+        .my-auto
+          p.pe-xl-3.mb-0 En el contexto colombiano, estas diferencias se evidencian en la regulación de la contratación y la gestión del talento humano en entidades estatales. Según Díaz Daza (2011), las entidades públicas deben cumplir requisitos legales estrictos para asegurar la transparencia y equidad en la administración de los recursos.
+      
+      #t_1_3.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 1.3
+          h2 Principios básicos de la administración pública
 
-        #t_1_4.titulo-segundo(data-aos="flip-up")
-          div.d-flex
-            span.me-3 1.4
-            h2 Tendencias globales en la implementación de la gobernanza
+      p.mb-4(data-aos="fade-up") La administración pública se rige por principios fundamentales que orientan su funcionamiento:
 
-        p.mb-4 A nivel mundial, la gobernanza ha evolucionado hacia esquemas más dinámicos y participativos, impulsados por la globalización, la digitalización de procesos y la creciente demanda ciudadana por una administración pública más accesible.
+      ImagenInfografica.color-secundario.mb-4.bg-white
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/unidad/img-7.png', alt='Descripción de la imagen')
+        .tarjeta.bg-white.p-4(x='37%' y='36%' numero='+')
+          .h5.mb-2 Eficiencia
+          p Uso óptimo de los recursos disponibles para maximizar resultados.
+        .tarjeta.bg-white.p-4(x='64.3%' y='36%' numero='+')
+          .h5.mb-2 Eficacia
+          p Cumplimiento de los objetivos establecidos en planes y políticas públicas.
+        .tarjeta.bg-white.p-4(x='37%' y='63%' numero='+')
+          .h5.mb-2 Transparencia
+          p Implementación de prácticas abiertas y accesibles para que la ciudadanía pueda supervisar y evaluar la gestión estatal.
+        .tarjeta.bg-white.p-4(x='64.3%' y='63%' numero='+')
+          .h5.mb-2 Equidad
+          p Distribución justa de recursos y oportunidades para garantizar el bienestar general.
 
-        .row.position-relative.mb-5.py-4.bg-fondo-2.bg-full-width
-          div.px-4.px-md-5.py-md-3
-            SlyderA(tipo="b").bg-white
-              .row.p-4.px-md-5.py-lg-5.justify-content-between
-                .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                  p.text-bold Gobernanza digital
-                  p Uso de tecnologías de la información para digitalizar trámites, automatizar procesos administrativos y mejorar la transparencia (Aguilar, 2014).
-                .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in")
-                  figure
-                    img(src='@/assets/curso/unidad/img-10.png', alt='Texto que describa la imagen')
-              .row.p-4.px-md-5.py-lg-5.justify-content-between
-                .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                  p.text-bold Gobernanza abierta
-                  p Implementación de datos abiertos y consulta ciudadana para promover la corresponsabilidad en la gestión pública (Lasagna, 2013).
-                .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in")
-                  figure
-                    img(src='@/assets/curso/unidad/img-11.png', alt='Texto que describa la imagen')
-              .row.p-4.px-md-5.py-lg-5.justify-content-between
-                .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                  p.text-bold Gobernanza en red
-                  p Cooperación entre múltiples actores mediante alianzas público-privadas y redes intergubernamentales para mejorar la eficiencia en la prestación de servicios (Peña, 2013).
-                .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in")
-                  figure
-                    img(src='@/assets/curso/unidad/img-12.png', alt='Texto que describa la imagen')
-              .row.p-4.px-md-5.py-lg-5.justify-content-between
-                .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                  p.text-bold Gobernanza basada en evidencia
-                  p Uso de indicadores y sistemas de monitoreo para evaluar políticas públicas con base en datos verificables y análisis técnicos (Rovira, 2013).
-                .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in")
-                  figure
-                    img(src='@/assets/curso/unidad/img-13.png', alt='Texto que describa la imagen')
+      p.mb-4(data-aos="fade-up") En Colombia, estos principios están presentes en documentos clave como el Plan Nacional de Desarrollo 2018-2022, que establece estrategias para fortalecer la confianza ciudadana y mejorar la prestación de servicios (DNP, 2020).
 
-        p.mb-4 Estas tendencias han permitido que los Estados sean más eficientes, transparentes y adaptativos a los desafíos del contexto global.
+      TabsC.mb-0
+        .tabs-content.border.px-4.p-md-5.py-3(titulo='Política', :iconUrl="require('@/assets/curso/unidad/img-8.svg')")
+          .row
+            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+              figure
+                img(src='@/assets/curso/unidad/img-9.png', alt='Descripción de la imagen')
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              h4(data-aos='fade-up') Política
+              p(data-aos='fade-up') Relacionada con la formulación de políticas públicas y su alineación con las prioridades nacionales. En Colombia, la acción pública responde a las necesidades de desarrollo sostenible y justicia social.
+        .tabs-content.border.px-4.p-md-5.py-3(titulo='Legal', :iconUrl="require('@/assets/curso/unidad/img-8.svg')")
+          .row
+            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+              figure
+                img(src='@/assets/curso/unidad/img-10.png', alt='Descripción de la imagen')
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              h4(data-aos='fade-up') Legal
+              p(data-aos='fade-up') Comprende el marco normativo que regula las actividades estatales. Leyes como la 2200 de 2022 garantizan la simplificación de procesos administrativos para mejorar la eficiencia (Función Pública, 2022).
+        .tabs-content.border.px-4.p-md-5.py-3(titulo='Social', :iconUrl="require('@/assets/curso/unidad/img-8.svg')")
+          .row
+            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+              figure
+                img(src='@/assets/curso/unidad/img-11.png', alt='Descripción de la imagen')
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              h4(data-aos='fade-up') Social
+              p(data-aos='fade-up') Enfocada en atender las demandas de la población, especialmente de los sectores más vulnerables. La administración pública desempeña un papel clave en la inclusión social y la equidad.
+        .tabs-content.border.px-4.p-md-5.py-3(titulo='Técnica', :iconUrl="require('@/assets/curso/unidad/img-8.svg')")
+          .row
+            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+              figure
+                img(src='@/assets/curso/unidad/img-12.png', alt='Descripción de la imagen')
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              h4(data-aos='fade-up') Técnica
+              p(data-aos='fade-up') Involucra el diseño y la implementación de sistemas y herramientas que optimizan la gestión administrativa.
 
-        #t_1_5.titulo-segundo(data-aos="flip-up")
-          div.d-flex
-            span.me-3 1.5
-            h2 La gobernanza multinivel y la descentralización del poder
+      .bg-rojo-claro.p-4.mb-4(data-aos="fade-up")
+        span Estas dimensiones interconectadas permiten al Estado colombiano cumplir su misión constitucional, adaptándose a los retos del entorno y las demandas ciudadanas.
 
-        p.mb-4 La gobernanza multinivel implica la interacción entre el gobierno central, los entes regionales y las administraciones locales para coordinar la implementación de políticas públicas. En Colombia, la descentralización ha fortalecido la autonomía de los gobiernos locales desde la Constitución de 1991, permitiendo una gestión más eficiente de los recursos públicos (Rovira, 2013).
+      #t_1_4.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 1.4
+          h2 Funciones esenciales de la administración pública
 
-        .row.mb-4
-          .col-4.d-none.d-xl-block
-            img(src='@/assets/curso/unidad/img-14.png', alt='Texto que describa la imagen')
-          .col-12.col-xl-8
-            p.mb-4
-            .bg-gris-claro.mb-4.p-4
+      .row.bg-amarillo.bg-full-width.pt-4.mb-4
+        div.px-5
+          .row.mb-4
+            .col-12.col-xl-8
+              p.mb-4(data-aos="fade-up") Las funciones de la administración pública se pueden clasificar en tres grandes áreas:
               div.d-flex.mb-4
                 img.mt-2.me-2.d-flex.align-self-start(style="width: 15px" src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen')
-                p.mb-0 <strong>Coordinación intergubernamental.</strong> Asegura la coherencia en la implementación de políticas a nivel nacional, regional y local.
+                p.mb-0 <strong>Regulación: </strong>establece normas y directrices que guían el comportamiento de los actores sociales y económicos. En Colombia, estas regulaciones buscan garantizar la justicia y el orden público.
               div.d-flex.mb-4
                 img.mt-2.me-2.d-flex.align-self-start(style="width: 15px" src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen')
-                p.mb-0 <strong>Transferencia de competencias. </strong>Otorga mayor autonomía a los gobiernos locales para gestionar sus recursos.
+                p.mb-0 <strong>Provisión de servicios: </strong>asegura la entrega de bienes y servicios esenciales como salud, educación y seguridad, garantizando el acceso equitativo a través de políticas redistributivas.
               div.d-flex.mb-4
                 img.mt-2.me-2.d-flex.align-self-start(style="width: 15px" src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen')
-                p.mb-0 <strong>Mecanismos de cooperación. </strong>Establece acuerdos entre distintos niveles de gobierno para la ejecución de proyectos estratégicos.
-            span Los beneficios de la descentralización en la gobernanza multinivel: 
-        .row.bg-gris.bg-full-width.p-4.mb-4
-          div.px-5.pb-md-3
-            .col-12.col-lg-11
-              img(src='@/assets/curso/unidad/img-15.png', alt='Texto que describa la imagen')
+                p.mb-0 <strong>Promoción del desarrollo: </strong>implementa estrategias que fomentan el crecimiento económico, la sostenibilidad ambiental y la cohesión social.
+            .d-none.d-xl-block.col-4
+              img.h-100(src='@/assets/curso/unidad/img-13.png', alt='Texto que describa la imagen')
+      p.mb-4 Las entidades públicas no solo gestionan recursos, sino que también impactan múltiples aspectos del desarrollo humano.
 
-        .row.bg-verde-claro.bg-full-width.p-4.mb-4
-          div.px-5.row
+      h2 Rol del administrador público
 
-            .col-1.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-16.svg', alt='Texto que describa la imagen')
-    
-            .col-12.col-xl-11
-              span A pesar de sus ventajas, la descentralización enfrenta desafíos como la falta de coordinación intergubernamental y las desigualdades en la capacidad administrativa de los territorios (Peña, 2013).
+      .row.mb-4
+        .col-5.d-none.d-xl-block
+          img.h-100(src='@/assets/curso/unidad/img-14.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-7
+          p.mb-4(data-aos="fade-up") El administrador público actúa como intermediario entre el Estado y la sociedad, interpretando las necesidades ciudadanas y transformándolas en acciones concretas alineadas con los objetivos gubernamentales. Según Mejía (2015), uno de los principales retos es diseñar estructuras salariales equitativas que promuevan la motivación y el desempeño del talento humano en el sector público.
+          .d-flex.align-items-start.bg-verde-claro.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-15.svg', alt='Texto descriptivo de la imagen')
+            .my-auto
+              p.pe-xl-3.mb-0 En Colombia, este profesional debe liderar procesos de transformación organizacional, implementar políticas basadas en evidencia y garantizar el cumplimiento de las metas de desarrollo.
 
-        #t_1_6.titulo-segundo(data-aos="flip-up")
-          div.d-flex
-            span.me-3 1.6
-            h2 La gestión de redes como estrategia para la articulación interinstitucional y la participación ciudadana.
+      h2 Importancia de la administración pública en Colombia
+      p.mb-4(data-aos="fade-up") La administración pública impulsa el desarrollo y la cohesión social. En un país con diversidad cultural y geográfica, el diseño de políticas públicas inclusivas es clave para reducir desigualdades históricas.
 
-        p.mb-4 La gestión de redes ha emergido como una estrategia clave en la administración pública, facilitando la cooperación entre entidades gubernamentales, sector privado y sociedad civil para mejorar la eficiencia y la transparencia en la gestión estatal (Rovira, 2013).
+      p.mb-4 El <strong>Plan Nacional de Desarrollo 2018-2022</strong> resalta la importancia de fortalecer la capacidad institucional para mejorar la calidad de vida. Esto implica:
 
-        .row.bg-amarillo.bg-full-width.p-4.mb-4
-          div.px-5.pb-md-3
-            .row
-              .col-12.col-xl-7
-                div.d-flex.mb-4
-                  img.mt-2.me-2.d-flex.align-self-start(style="width: 15px" src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen')
-                  p.mb-0 <strong>Interdependencia. </strong>Ningún actor tiene control absoluto; las decisiones son producto de cooperación y negociación.
-                div.d-flex.mb-4
-                  img.mt-2.me-2.d-flex.align-self-start(style="width: 15px" src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen')
-                  p.mb-0 <strong>Flexibilidad organizacional. </strong>Permite adaptación a cambios sin perder cohesión.
-                div.d-flex.mb-4
-                  img.mt-2.me-2.d-flex.align-self-start(style="width: 15px" src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen')
-                  p.mb-0 <strong>Co-creación de valor público. </strong>Soluciones más inclusivas y sostenibles gracias a la colaboración.
-                div.d-flex.mb-4
-                  img.mt-2.me-2.d-flex.align-self-start(style="width: 15px" src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen')
-                  p.mb-0 <strong>Transparencia y rendición de cuentas.</strong>Monitoreo y evaluación para garantizar confianza en la red de gobernanza (Rovira, 2013).
-              .col-4.d-none.d-xl-block
-                img(src='@/assets/curso/unidad/img-17.png', alt='Texto que describa la imagen')
+      .row.mb-4
+        .col-12.col-md-6.col-lg-4.mx-auto(data-aos="flip-up")
+          .bg-verde.h-100.p-4.rounded
+            p.text-bold.text-center.my-auto.d-flex Modernizar los procesos administrativos.
+        .col-12.col-md-6.col-lg-4.mx-auto(data-aos="flip-up")
+          .bg-amarillo-oscuro.h-100.p-4.rounded
+            p.text-bold.text-center.my-auto.d-flex Implementar tecnologías innovadoras.
+        .col-12.col-md-6.col-lg-4.mx-auto(data-aos="flip-up")
+          .bg-rojo.p-4.h-100.p-4.rounded.d-flex
+            p.text-bold.text-center.my-auto.d-flex Fomentar la participación ciudadana.
 
+      p.mb-4(data-aos="fade-up") Así, la administración pública no solo estructura el Estado, sino que también es un catalizador del cambio social.
 
-        p.mb-4 Los tipos de redes en la administración pública son: 
+      #t_1_5.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 1.5
+          h2 Funciones de la administración pública
 
-        .row.mb-4
+      p.mb-4(data-aos="fade-up") La administración pública busca garantizar el bienestar general mediante la gestión de recursos, la prestación de servicios y el establecimiento de normas que regulen la convivencia.
+
+      .row.mb-4
+        .col-12.col-lg-8
+          AcordionA(tipo="b")
+            .div(titulo="Función de regulación")(data-aos="fade-up")
+              p Creación de normas y directrices para ordenar la conducta de individuos y organizaciones. Ejemplo: la Ley 2200 de 2022 promueve la simplificación de trámites administrativos.
+            .div(titulo="Función de provisión de servicios")(data-aos="fade-up")
+              p Garantiza el acceso equitativo a servicios esenciales como salud, educación y seguridad. Ejemplo: la educación básica gratuita como derecho fundamental.
+            .div(titulo="Función de promoción del desarrollo")(data-aos="fade-up")
+              p Diseña e implementa políticas para reducir desigualdades y fomentar la participación ciudadana. Ejemplo: programas como Colombia Productiva para incentivar la innovación y la competitividad.
+            .div(titulo="Función de protección y seguridad")(data-aos="fade-up")
+              p Prevención de riesgos, mitigación de desastres y fortalecimiento de la seguridad ciudadana. Ejemplo: el Sistema Nacional para la Gestión del Riesgo de Desastres (SNGRD).
+            .div(titulo="Función de participación ciudadana")(data-aos="fade-up")
+              p Involucra a la ciudadanía en la toma de decisiones públicas. Ejemplo: cabildos abiertos, consultas populares y veedurías ciudadanas.
+            .div(titulo="Función de coordinación interinstitucional")(data-aos="fade-up")
+              p Articula acciones entre distintos niveles del Estado para una gestión eficiente. Ejemplo: coordinación entre alcaldías y ministerios para la infraestructura vial.
+        .col-12.col-lg-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-16.png', alt='Texto que describa la imagen')
+
+      #t_1_6.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 1.6
+          h2 La función del administrador público
+
+      p.mb-4(data-aos="fade-up") El administrador público desempeña un papel clave en el desarrollo social y económico del país.
+
+      .row.bg-fondo-1.bg-full-width.py-4.mb-4
+        div.px-5.pb-md-3.row
           .col-4.d-none.d-xl-block
-            img(src='@/assets/curso/unidad/img-18.png', alt='Texto que describa la imagen')
-
+            img.mb-4(src='@/assets/curso/unidad/img-17.png', alt='Descripción de la imagen')
           .col-12.col-xl-8
-            LineaTiempoD.color-secundario
-              p(numero='1' titulo='Redes intergubernamentales') Coordinación entre niveles de gobierno para garantizar coherencia en la ejecución de políticas.<br> <strong>Ejemplo:</strong> Sistema Nacional de Planeación en Colombia.
-              p(numero='2' titulo='Redes público-privadas') Colaboración entre empresas y entidades gubernamentales para optimizar la prestación de servicios.<br> <strong>Ejemplo:</strong> Asociaciones Público-Privadas (APP) en infraestructura vial.
-              p(numero='3' titulo='Redes de la sociedad civil') Organizaciones comunitarias y ONG trabajan junto con el Estado en áreas como derechos humanos y medio ambiente.<br> <strong>Ejemplo:</strong> Red Nacional de Veedurías Ciudadanas para monitoreo del uso de recursos públicos.
+            SlyderF(columnas='col-12 col-lg-6 py-4 px-3')
+              div.rounded-8px
+                .row.mb-4.justify-content-center
+                  .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                    img.mx-auto.mb-4(src='@/assets/curso/unidad/img-18.svg', style='width: 80px')
+                    p.text-bold.mb-4.text-center Liderazgo en políticas públicas
+                    p.px-1.text-small.mb-0.d-flex.text-center Diagnostica necesidades y diseña intervenciones efectivas.
+              div.rounded-8px
+                .row.mb-4.justify-content-center
+                  .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                    img.mx-auto.mb-4(src='@/assets/curso/unidad/img-19.svg', style='width: 80px')
+                    p.text-bold.mb-4.text-center Gestión eficiente de recursos
+                    p.px-1.text-small.mb-0.d-flex.text-center Planifica y supervisa presupuestos para maximizar el impacto.
+              div.rounded-8px
+                .row.mb-4.justify-content-center
+                  .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                    img.mx-auto.mb-4(src='@/assets/curso/unidad/img-20.svg', style='width: 80px')
+                    p.text-bold.mb-4.text-center Facilitador de la participación ciudadana
+                    p.px-1.text-small.mb-0.d-flex.text-center Promueve mecanismos como cabildos y veedurías.
+              div.rounded-8px
+                .row.mb-4.justify-content-center
+                  .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                    img.mx-auto.mb-4(src='@/assets/curso/unidad/img-21.svg', style='width: 80px')
+                    p.text-bold.mb-4.text-center Promoción de la innovación
+                    p.px-1.text-small.mb-0.d-flex.text-center Implementa tecnologías y moderniza procesos estatales.
+              div.rounded-8px
+                .row.mb-4.justify-content-center
+                  .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                    img.mx-auto.mb-4(src='@/assets/curso/unidad/img-22.svg', style='width: 80px')
+                    p.text-bold.mb-4.text-center Garantía de ética y transparencia
+                    p.px-1.text-small.mb-0.d-flex.text-center Asegura una gestión pública libre de corrupción.
+              div.rounded-8px
+                .row.mb-4.justify-content-center
+                  .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                    img.mx-auto.mb-4(src='@/assets/curso/unidad/img-23.svg', style='width: 80px')
+                    p.text-bold.mb-4.text-center Coordinación entre niveles de gobierno
+                    p.px-1.text-small.mb-0.d-flex.text-center Articula acciones entre entidades nacionales, departamentales y municipales.
 
-        p.mb-4 Los beneficios de la gestión de redes en la administración pública son: 
+      .row.bg-amarillo.bg-full-width.p-4.mb-4
+        div.px-5.pb-md-3
+          span Según López (2019), el administrador público debe interpretar las demandas locales y articularlas con las metas nacionales, promoviendo así una gestión descentralizada y equitativa.
 
-        .row.bg-fondo-1.bg-full-width.py-4.mb-0
-          div.px-5.pb-md-3
-            .row.mb-4.justify-content-center
-              .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-19.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Mayor eficiencia en la formulación de políticas
-                  p.px-1.text-small.mb-0.d-flex.text-center Compartición de información y recursos entre actores, reduciendo duplicidad de esfuerzos.
-              .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-20.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Fortalecimiento de la participación ciudadana
-                  p.px-1.text-small.mb-0.d-flex.text-center Inclusión de la ciudadanía en procesos de decisión a través de mecanismos como cabildos abiertos y presupuestos participativos.
-              .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-21.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Transparencia y rendición de cuentas
-                  p.px-1.text-small.mb-0.d-flex.text-center Implementación de auditoría social y plataformas digitales de acceso a la información pública (Aguilar, 2014).
-        .row.bg-verde-oscuro.bg-full-width.py-4.mb-4
-          div.px-5.pb-md-3.row
-            .col-12.col-xl-9.text-white
-              p.text-bold Ejemplo
-              span En Colombia, la plataforma SECOP permite a los ciudadanos monitorear en tiempo real la contratación pública, garantizando transparencia en la gestión gubernamental (Rovira, 2013).
-            .col-3.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-22.png', alt='Texto que describa la imagen')
-
-        h2 Desafíos en la implementación de redes en la gestión pública
-        p.mb-4 A pesar de sus beneficios, la implementación de redes enfrenta obstáculos que pueden afectar su eficacia.
-        TabsC.mb-4
-          .tabs-content.border.px-4.p-md-5.py-3(titulo='Fragmentación institucional', :iconUrl="require('@/assets/curso/unidad/img-23.svg')")
-            .row
-              .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-                figure
-                  img(src='@/assets/curso/unidad/img-24.png', alt='Descripción de la imagen')
-              .col-md-12.col-lg-7.mb-4.mb-md-0
-                h4(data-aos='fade-up') Fragmentación institucional
-                p(data-aos='fade-up') Falta de coordinación entre entidades gubernamentales, generando duplicidad de funciones.
-          .tabs-content.border.px-4.p-md-5.py-3(titulo='Resistencia al cambio', :iconUrl="require('@/assets/curso/unidad/img-23.svg')")
-            .row
-              .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-                figure
-                  img(src='@/assets/curso/unidad/img-25.png', alt='Descripción de la imagen')
-              .col-md-12.col-lg-7.mb-4.mb-md-0
-                h4(data-aos='fade-up') Resistencia al cambio
-                p(data-aos='fade-up') Funcionarios y organizaciones con estructuras tradicionales pueden oponerse a modelos en red.
-          .tabs-content.border.px-4.p-md-5.py-3(titulo='Coordinación intergubernamental', :iconUrl="require('@/assets/curso/unidad/img-23.svg')")
-            .row
-              .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-                figure
-                  img(src='@/assets/curso/unidad/img-26.png', alt='Descripción de la imagen')
-              .col-md-12.col-lg-7.mb-4.mb-md-0
-                h4(data-aos='fade-up') Coordinación intergubernamental
-                p(data-aos='fade-up') Necesidad de estructuras claras de liderazgo para facilitar la toma de decisiones.
-          .tabs-content.border.px-4.p-md-5.py-3(titulo='Medición del impacto', :iconUrl="require('@/assets/curso/unidad/img-23.svg')")
-            .row
-              .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-                figure
-                  img(src='@/assets/curso/unidad/img-27.png', alt='Descripción de la imagen')
-              .col-md-12.col-lg-7.mb-4.mb-md-0
-                h4(data-aos='fade-up') Medición del impacto
-                p(data-aos='fade-up') Evaluación compleja debido a la dificultad de cuantificar beneficios en el corto plazo (Rovira, 2013).
-
-        .row.bg-amarillo.bg-full-width.p-4.mb-4
-          div.px-5.pb-md-3
-            .row
-              .col-1.d-none.d-xl-block
-                img(src='@/assets/curso/unidad/img-28.svg', alt='Texto que describa la imagen')
-              .col-12.col-xl-11
-                span Estos retos requieren estrategias de fortalecimiento institucional y mecanismos de evaluación que permitan consolidar la gestión en red como un modelo efectivo en la administración pública.
-
-        .bg-full-width.border-top-9-azul
-          .px-5.pt-5.pb-0
-            h2 Material complementario
-            .row
-              .col-12.col-md-6.col-lg-8
-                p.d-flex.my-4
-                  img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                  a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/61358") Porras Nadales, A. (2014). La acción de gobierno: gobernabilidad, gobernanza, gobermedia.
-                p.d-flex.my-4
-                  img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-                  a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=AdEgDjec14c") [Vídeo] Ministerio TIC Colombia. (2024, 6 de agosto). Gobernanza de la Inteligencia Artificial: equilibrio entre innovación y regulación.
-                p.d-flex.my-4
-                  img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                  a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/106277") Beuchat, G. (2017). Se debe y se puede: gestión de la innovación pública.
-              .col-12.col-md-6.col-lg-3
-                figure
-                  img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
-
+      .bg-full-width.border-top-9-azul
+        .px-5.pt-5.pb-0
+          h2 Material complementario
+          .row
+            .col-12.col-md-6.col-lg-8
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://repositorio.21.edu.ar/bitstream/handle/ues21/12816/TEORIA%20DE%20LA%20ADMINISTRACION%20PUBLICA.pdf") Ramió, C. (2021). Teoría de la organización. LP Derecho.
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://repositorio.21.edu.ar/bitstream/handle/ues21/12816/TEORIA%20DE%20LA%20ADMINISTRACION%20PUBLICA.pdf") Martínez, J. (2019). Teoría de la administración pública. Universidad Siglo 21.
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=XyKc27G1V3s") [Vídeo] Administración pública: ¿Qué es? Descubre TODO en 4 minutos. (2022, 10 de marzo).
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.oas.org/sap/publications/2008/La%20Descentralizacin.pdf") Organización de los Estados Americanos (OEA). (2008). La descentralización y la gobernabilidad democrática en América Latina.
+            .col-12.col-md-6.col-lg-3
+              figure
+                img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
   </template>
 
 <script>

@@ -22,7 +22,7 @@
               .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
                 p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
                 h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-                p.descripcion.mb-4 La gobernanza y la gestión de redes en la administración pública permiten la colaboración entre el Estado, el sector privado y la sociedad civil para optimizar recursos y fortalecer la transparencia. La gestión pública puede basarse en procesos, optimizando procedimientos, o en resultados, enfocándose en el impacto social. La innovación mejora la eficiencia y accesibilidad de los servicios, mientras que la ética garantiza transparencia y confianza ciudadana. En Colombia, la descentralización y herramientas como SINERGIA han optimizado la gestión gubernamental, promoviendo participación y eficiencia en la ejecución de políticas públicas.
+                p.descripcion.mb-4 La administración pública es clave para el desarrollo del Estado, garantizando la gestión de recursos y la implementación de políticas en beneficio colectivo. En Colombia, su marco normativo, basado en la Constitución de 1991, enfatiza transparencia y equidad. Se distingue de la administración privada por su orientación al servicio público. Sus funciones incluyen regulación, provisión de servicios y promoción del desarrollo. El administrador público actúa como enlace entre el Estado y la sociedad, asegurando eficiencia y transformación organizacional. Su impacto es esencial para la modernización y fortalecimiento institucional.
   
                 .button-container.mt-auto
                   router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
