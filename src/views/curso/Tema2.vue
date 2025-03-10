@@ -250,6 +250,12 @@
         .d-none.d-xl-block.col-xl-4.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
           img.h-100(src='@/assets/curso/unidad/img-44.png', alt='Texto que describa la imagen')
 
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+    
+
     .bg-full-width.border-top-9-azul
       .px-5.pt-5.pb-0
         h2 Material complementario
@@ -271,11 +277,183 @@
 </template>
 
 <script>
-import BannerInterno from '../../components/plantilla/BannerInterno'
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
-  name: 'Tema2',
+  name: 'Tema3',
   components: {
-    BannerInterno,
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Fundamentos de administración pública',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál es uno de los principios fundamentales de la administración pública en Colombia según la Constitución de 1991?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Competitividad',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Transparencia',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Innovación',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Rentabilidad',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué elemento NO pertenece a los elementos esenciales del Estado?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Territorio',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Población',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Soberanía',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Economía',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Quién es responsable de garantizar la seguridad y el orden público dentro de la rama ejecutiva?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Congreso de la República',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Policía Nacional',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Corte Constitucional',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Fiscalía General',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Cuál es la función principal de la administración pública en el contexto colombiano?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Promover beneficios económicos privados',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Gestionar recursos y satisfacer necesidades colectivas',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Regular únicamente las actividades del sector privado',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Reducir el tamaño del Estado',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Qué diferencia clave existe entre la administración pública y la administración privada?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Ambas persiguen el mismo objetivo',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'La administración pública busca el bien común',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'La administración privada regula al sector público',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Ninguna diferencia',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
   },
   mounted() {
     this.$nextTick(() => {
@@ -285,4 +463,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>
