@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Group_1182355" data-name="Group 1182355" transform="translate(-633 -5579.637)">
+    <path id="arrow-right-circle_3_" data-name="arrow-right-circle (3)" d="M1,8A7,7,0,1,0,8,1,7,7,0,0,0,1,8M16,8A8,8,0,1,1,8,0a8,8,0,0,1,8,8M4.5,7.5a.5.5,0,0,0,0,1h5.793L8.146,10.646a.5.5,0,1,0,.708.708l3-3a.5.5,0,0,0,0-.708l-3-3a.5.5,0,1,0-.708.708L10.293,7.5Z" transform="translate(633 5579.637)" fill="#4a665c" fill-rule="evenodd"/>
+  </g>
+</svg>
