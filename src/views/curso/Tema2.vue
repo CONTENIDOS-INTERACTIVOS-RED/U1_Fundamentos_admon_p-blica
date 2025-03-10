@@ -244,7 +244,7 @@
         .col-12.col-xl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
           h2.mb-4.pb-2.me-auto División de las funciones de poder en el Estado colombiano
           p.mb-5(data-aos="fade-up") Los invitamos a leer el documento División de las funciones de poder en el Estado colombiano: ejecutivo, legislativo y judicial, donde se presenta una visión estructurada de las tres ramas del poder en Colombia. Se detallan sus funciones, composición y relación con la administración pública, destacando cómo trabajan en conjunto para garantizar la gobernabilidad y el cumplimiento de la Constitución. Este análisis permite comprender la importancia de cada rama en la construcción de un Estado democrático y en la protección de los derechos ciudadanos.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_DIVISIÓN DE LAS FUNCIONES DE PODER EN EL ESTADO COLOMBIANO.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong>Principales aportes y beneficios.
         .d-none.d-xl-block.col-xl-4.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
